@@ -23,17 +23,17 @@
 // ================================
 
 // 5-savol: Unidirectional Data Flow - deganda nimani tushinasiz ?
-// Yuqoridan pastga yo'nalgan oqim, ya'ni   Parent dan child ga prop jo'natilish holatida child ning yangilanish jarayonidir.
+// Yuqoridan pastga yo'nalgan oqim, ya'ni Parent dan child ga prop jo'natilish holatida child ning yangilanish jarayonidir.
 // Bu child ning aynan qaysi biri o'garishidagi eng tez amalga oshadigan harakatdi.
 
 // ================================
 
-// 6-savol: Real case larda ternary operator( ?,: ) ishlatgan afzalmi yoki OR ( || ) operator nimi ?
-// ternary operator ishlatgan afzal. Chunki OR operatorining Reac da turli kamchiliklari mavjud.
+// 6-savol: Real case larda ternary operator( ?, : ) ishlatgan afzalmi yoki OR ( || ) operator nimi ?
+// ternary operator ishlatgan afzal. Chunki OR operatorining React da turli kamchiliklari mavjud.
 
 // ================================
 
-// 7-savol: Nima uchun class selection i react da className ga o'zgargan ?
+// 7-savol: Nima uchun class selector i react.js da className ga o'zgargan ?
 // ReactJS code lari jsx formatdan js formatga convert bo'layotganda javascript dagi class bilan chalkashib qolishi mumkin va code da conflict yuzaga keladi.
 
 // ================================
@@ -65,3 +65,8 @@
 // 11-savol: Prop drilling nima ?
 // Parent dan child ga, child dan sapchild ga, sapchild dan grandchild ga prop uzatilishiga aytiladi.
 // Bu sintaksis juda yomon, chunki prop uzatilganda barcha drilling bo'lgan componentlar re-render bo'ladi.
+
+// ================================
+
+// 12-savol: State menegmentga nimalar kiradi?
+// State menegmentiga: useContext va Redux kiradi. Bu ikkisining vazifasi bir componentdagi ma'lumotni boshqa bir componentda ko'rinishini ta'minlaydi.
